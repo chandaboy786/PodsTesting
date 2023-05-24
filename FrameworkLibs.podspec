@@ -41,7 +41,7 @@ Pod::Spec.new do |spec|
 
   spec.author       = { "Muhammad Farhan" => "muhammad.farhan@golootlo.pk" }
 
-  spec.ios.deployment_target = "12.1"
+  spec.ios.deployment_target = "11.0"
   spec.swift_version = "4.2"
 
   spec.source        = { :git => "https://github.com/chandaboy786/PodsTesting.git", :tag => "#{spec.version}" }
