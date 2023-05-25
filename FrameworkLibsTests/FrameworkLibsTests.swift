@@ -28,10 +28,22 @@ final class FrameworkLibsTests: XCTestCase {
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
         testAdd()
+        testSub()
+        callPhoneNo()
     }
 
     func testAdd() {
         XCTAssertEqual(swiftyLib.add(a: 1, b: 1), 2)
+    }
+    
+    func testSub()
+    {
+        XCTAssertEqual(swiftyLib.sub(a: 1, b: 1), 2)
+    }
+    
+    func callPhoneNo()
+    {
+        XCTAssertEqual(swiftyLib.callPhoneNumber(phoneNumber: "+921231213123") , 2)
     }
     
     func testPerformanceExample() throws {
